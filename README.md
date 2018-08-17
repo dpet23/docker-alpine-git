@@ -1,27 +1,41 @@
 # Docker Alpine Git
-###### A basic Git Docker image based on the official Alpine Linux image.
+
+[![Docker Stars](https://img.shields.io/docker/stars/dpet23/docker-alpine-git.svg)][hub]
+[![Docker Pulls](https://img.shields.io/docker/pulls/dpet23/docker-alpine-git.svg)][hub]
+[![Image Layers](https://shields.beevelop.com/docker/image/layers/dpet23/docker-alpine-git/latest.svg)][hub]
+[![Image Size](https://shields.beevelop.com/docker/image/image-size/dpet23/docker-alpine-git/latest.svg)][hub]
+
+A basic Git Docker image based on the official Alpine Linux image.
+
+---
+
+### Supported Tags
+
+* `latest`
+* `enhanced`
+
+Docker Hub: https://hub.docker.com/r/dpet23/docker-alpine-git
 
 ---
 
 ### Build Info
 
-[![DockerHub Badge](http://dockeri.co/image/dpet23/docker-alpine-git)](https://hub.docker.com/r/dpet23/docker-alpine-git/)
+* Based on: [Alpine Linux](https://alpinelinux.org)
 
-Docker Hub: https://hub.docker.com/r/dpet23/docker-alpine-git
+* Packages installed:
 
-Based on: [Alpine Linux](https://alpinelinux.org)
-
-Packages installed:
-* bash
-* git
-* openssh-client
+    | Package        | Labels               |
+    | -------------- | -------------------- |
+    | git            | `latest`, `enhanced` |
+    | bash           | `enhanced`           |
+    | openssh-client | `enhanced`           |
 
 ---
 
 ### Docker Pull Command
 
 ```
-docker pull dpet23/docker-alpine-git:enhanced
+docker pull dpet23/docker-alpine-git
 ```
 
 ---
@@ -29,7 +43,9 @@ docker pull dpet23/docker-alpine-git:enhanced
 ### Usage
 
 ```
-docker build -t dpet23/docker-alpine-git:enhanced .
-docker run -it --name docker-alpine-git dpet23/docker-alpine-git:enhanced /bin/bash
+docker build -t dpet23/docker-alpine-git .
+docker run -it --name docker-alpine-git dpet23/docker-alpine-git /bin/bash
 <git_command>
 ```
+
+[hub]: https://hub.docker.com/r/dpet23/docker-alpine-git
