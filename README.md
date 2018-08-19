@@ -1,4 +1,4 @@
-# Docker Alpine Git
+# Docker Git image
 
 [![Docker Stars](https://img.shields.io/docker/stars/dpet23/docker-alpine-git.svg)][hub]
 [![Docker Pulls](https://img.shields.io/docker/pulls/dpet23/docker-alpine-git.svg)][hub]
@@ -14,7 +14,7 @@ A basic Git Docker image based on the official Alpine Linux image.
 * `latest`
 * `enhanced`
 
-Docker Hub: https://hub.docker.com/r/dpet23/docker-alpine-git
+View on [Docker Hub][hub]
 
 ---
 
@@ -29,6 +29,7 @@ Docker Hub: https://hub.docker.com/r/dpet23/docker-alpine-git
     | git            | `latest`, `enhanced` |
     | bash           | `enhanced`           |
     | openssh-client | `enhanced`           |
+    | rsync          | `enhanced`           |
 
 ---
 
