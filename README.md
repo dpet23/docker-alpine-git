@@ -2,8 +2,8 @@
 
 [![Docker Stars](https://img.shields.io/docker/stars/dpet23/docker-alpine-git.svg)][hub]
 [![Docker Pulls](https://img.shields.io/docker/pulls/dpet23/docker-alpine-git.svg)][hub]
-[![Image Layers](https://shields.beevelop.com/docker/image/layers/dpet23/docker-alpine-git/latest.svg)][hub]
-[![Image Size](https://shields.beevelop.com/docker/image/image-size/dpet23/docker-alpine-git/latest.svg)][hub]
+[![Image Layers](https://shields.beevelop.com/docker/image/layers/dpet23/docker-alpine-git/enhanced.svg)][hub]
+[![Image Size](https://shields.beevelop.com/docker/image/image-size/dpet23/docker-alpine-git/enhanced.svg)][hub]
 
 A basic Git Docker image based on the official Alpine Linux image.
 
@@ -11,7 +11,7 @@ A basic Git Docker image based on the official Alpine Linux image.
 
 ### Supported Tags
 
-* `latest`
+* `simple`
 * `enhanced`
 
 View on [Docker Hub][hub]
@@ -26,7 +26,7 @@ View on [Docker Hub][hub]
 
     | Package        | Labels               |
     | -------------- | -------------------- |
-    | git            | `latest`, `enhanced` |
+    | git            | `simple`, `enhanced` |
     | bash           | `enhanced`           |
     | openssh-client | `enhanced`           |
     | rsync          | `enhanced`           |
